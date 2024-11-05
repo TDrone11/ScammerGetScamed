@@ -1,0 +1,139 @@
+body {
+  animation: backgroundChange 10s infinite;
+  color: black;
+  font-size: large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+@keyframes backgroundChange {
+  0% { background-color: #ff4d4d; }   /* Red */
+  25% { background-color: #ffae42; }  /* Orange */
+  50% { background-color: #ffff4d; }  /* Yellow */
+  75% { background-color: #4dff88; }  /* Green */
+  100% { background-color: #4d4dff; } /* Blue */
+}
+
+header {
+  font-size: xx-large;
+  font-weight: 600;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#intro {
+  text-align: center;
+}
+
+.showCode {
+  position: fixed;
+  height: 40px;
+  right: 1000px;
+  border-radius: 10px;
+  background-color: rgb(148, 129, 129);
+  border-color: rgb(95, 93, 90);
+  border-style: groove;
+  border-width: 3px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  padding-bottom: 100px;
+}
+
+.showCode:hover {
+  margin: 10px;
+  border-radius: 7.5px;
+  background-color: rgb(98, 86, 86);
+  border-color: rgb(95, 93, 90);
+  border-style: groove;
+  border-width: 3px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  rotate: -15deg;
+  transition: .5s;
+}
+
+.cpsLinks {
+  color: black;
+}
+
+#wall {
+  position: fixed;
+  right: 1075px;
+  padding-bottom: 210px;
+  background-color: gray;
+  border-color: black;
+  color: gray;
+}
+
+#wall1 {
+  position: fixed;
+  right: 981px;
+  padding-bottom: 210px;
+  background-color: gray;
+  border-color: black;
+  color: gray;
+  border-left: none;
+}
+
+#floor {
+  width: 120px;
+  background-color: gray;
+  border-color: black;
+  color: gray;
+  right: 981px;
+  position: fixed;
+  border-top: none;
+  height: 45px;
+
+}
+
+#moveButton {
+  background-color: darkgray;
+  border: none;
+  width: 200px;
+  right: 940px;
+  position: fixed;
+  padding-bottom: 175px;
+  padding-top: 175px;
+  top: 100px;
+  font-size: xx-large;
+}
+
+#openButton {
+  position: fixed;
+  right: 1150px;
+  top: 200px;
+  background-color: antiquewhite;
+}
+
+#closeButton {
+  position: fixed;
+  right: 880px;
+  top: 200px;
+  background-color: antiquewhite;
+}
+
+#closeButton:hover {
+  position: fixed;
+  right: 880px;
+  top: 200px;
+  background-color: rgb(244, 205, 155);
+  transition: 0.5s;
+}
+
+#openButton:hover {
+  position: fixed; 
+  right: 1150px;
+  top: 200px;
+  background-color: rgb(244, 205, 155);
+  transition: 1.s;
+}
+
+.o-c {
+  border-radius: 5px;
+}
+
+.headerP {
+  font-size: xx-large;
+}
+

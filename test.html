@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="test.js"></script>
+    <link rel="stylesheet" href="test.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button class="popup" onclick="myFunction()">Click me!
+        <span class="popuptext" id="myPopup">import pyautogui 
+            import keyboard
+            import time 
+            keyboard.wait('m')
+            while not keyboard.is_pressed('n'):
+                time.sleep(0.001)           #to control how long between clicks
+                pyautogui.click()
+                #from vid but added time sleep and changed the start and end lol``</span>
+        </button>
+
+      <script>
+        // When the user clicks on <div>, open the popup
+        function myFunction() {
+          var popup = document.getElementById("myPopup");
+          popup.classList.toggle("show");
+        }
+        </script>
+</body>
+</html>
